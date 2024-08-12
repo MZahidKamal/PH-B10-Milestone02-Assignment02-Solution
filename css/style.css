@@ -634,3 +634,83 @@ select option {
     text-align: left;
     margin-bottom: 10px;
 }
+
+/*-------------------------------------------------------------------------------------------------FOOTER SECTION-----*/
+
+.footer {
+    width: 100vw;
+    position: absolute;
+    left: 00px;
+    right: 00px;
+    /*top: 2300px;*/
+}
+
+.footer-container {
+    /*border: 1px solid #FD6E0A;*/
+    max-width: 1440px;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+.column1 {
+    /*background-color: #FD6E0A;*/
+    grid-column: 1/span 6;
+    margin: 25px 25px 25px 00px;
+    padding: 25px 100px 25px 50px;
+}
+
+.column1 h1 {
+    margin-bottom: 25px;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+
+.column1 p {
+    line-height: 30px;
+}
+
+.column2 {
+    /*background-color: #FD6E0A;*/
+    grid-column: 7/span 3;
+    margin: 25px 00px 25px 00px;
+    padding: 25px 00px 25px 50px;
+}
+
+.column3 {
+    /*background-color: #FD6E0A;*/
+    grid-column: 10/span 3;
+    margin: 25px 00px 25px 00px;
+    padding: 25px 00px 25px 50px;
+}
+
+.column2 h3,
+.column3 h3 {
+    margin-bottom: 35px;
+}
+
+.column2 a,
+.column3 a {
+    display: block;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.copyright {
+    /*background-color: #FD6E0A;*/
+    grid-column: 1/span 12;
+    margin: 00px 50px;
+}
+
+.copyright hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright p {
+    margin: 40px auto 00px auto; /* Adjust the margin as needed */
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------------THE END-----*/
