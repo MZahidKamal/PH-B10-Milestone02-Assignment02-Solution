@@ -4,3 +4,128 @@
 }
 
 /*This removes all default margin and padding given by the browser.*/
+
+/*--------------------------------------------------------------------------------------------------SHARED STYLES-----*/
+
+body {
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+section {
+    margin: 70px auto;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family: 'Miama';
+    src: url("../fonts/Miama.otf") format("opentype"),
+    url("../fonts/Miama.ttf") format("truetype");
+}
+
+.hide {
+    display: none;
+}
+
+.bg-test {
+    background-color: darksalmon;
+}
+
+.bg-black-1 {
+    background-color: rgb(20, 20, 20);
+}
+
+.bg-black-2 {
+    background-color: rgb(34, 34, 34);
+}
+
+.orange-color {
+    color: rgb(230, 83, 60);
+}
+
+.font-white-1 {
+    color: rgb(255, 255, 255);
+}
+
+.font-white-2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.font-miama {
+    font-family: 'Miama', sans-serif;
+    font-size: 10.8rem;
+    font-weight: 400;
+}
+
+.title-1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.title-2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.title-3 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.title-4 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.title-5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.button-1 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: background-color 50ms ease-in-out;
+}
+
+.button-2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    background-color: rgb(230, 83, 60);
+    border: 1px solid rgb(230, 83, 60);
+    transition: background-color 50ms ease-in-out;
+}
