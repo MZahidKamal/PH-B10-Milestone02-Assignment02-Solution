@@ -185,3 +185,111 @@ section {
     text-decoration: none;
     margin: 25px;
 }
+
+/*-------------------------------------------------------------------------------------------------BANNER SECTION-----*/
+
+.banner {
+    /*max-width: 1440px;*/
+    /*margin: 50px auto;*/
+}
+
+.banner-container {
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left {
+    /*border: 1px solid #FD6E0A;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-title {
+    /*border: 1px solid #FD6E0A;*/
+    max-width: 35rem;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    /*border: 1px solid #FD6E0A;*/
+    max-width: 37.5rem;
+    margin-bottom: 40px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.banner-right {
+    /*border: 1px solid #FD6E0A;*/
+    width: 50%;
+    background-image: url("../images/Images 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.banner-sticker-1 {
+    width: fit-content;
+    height: fit-content;
+
+    position: relative;
+    transform: translate(450px, 200px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 20px 20px 20px;
+}
+
+.banner-sticker-1 h1 {
+    font-size: 40px;
+    font-weight: 900;
+    /*text-align: left;*/
+    color: rgb(255, 255, 255);
+}
+
+.banner-sticker-2 {
+    width: fit-content;
+    height: fit-content;
+
+    position: relative;
+    transform: translate(50px, 450px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 25px 20px 25px;
+}
+
+.circle {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.banner-sticker-2 h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
