@@ -435,3 +435,97 @@ section {
 .calculatorA-title {
     margin-bottom: 20px;
 }
+
+/*-------------------------------------------------------------------------------------------CALCULATOR-B SECTION-----*/
+
+.calculatorB {
+    width: 100vw;
+    position: absolute;
+    left: 00px;
+    right: 00px;
+    /*top: 2300px;*/
+}
+
+.calculatorB-container {
+    /*border: 1px solid #FD6E0A;*/
+    max-width: 1440px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.calculatorB-left {
+    /*border: 1px solid #FD6E0A;*/
+    width: 45%;
+}
+
+.chart-content h1 {
+    margin-bottom: 50px;
+}
+
+.chart-content table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 15px 100px 15px 40px;
+}
+
+.chart-content th {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.chart-content td {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: left;
+}
+
+.calculatorB-right {
+    /*border: 1px solid #FD6E0A;*/
+    width: 55%;
+}
+
+.calculator-content h1, p {
+    margin-bottom: 35px;
+}
+
+.input-fieldsets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-fieldsets label {
+    width: 49%;
+}
+
+.input-fieldset {
+    margin-bottom: 20px;
+}
+
+.input-fieldset label {
+    width: 100%;
+}
+
+.input-field, select {
+    width: 100%;
+    padding: 15px;
+    margin: 4px 0;
+    border: 1px solid #444;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+}
+
+select option {
+    color: rgba(255, 255, 255, 0.3); /* Dropdown text color */
+}
+
+.calculatorB-button {
+    padding: 16px 60px 16px 60px;
+}
