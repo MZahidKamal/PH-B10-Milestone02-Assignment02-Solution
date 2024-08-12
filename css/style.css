@@ -129,3 +129,59 @@ section {
     border: 1px solid rgb(230, 83, 60);
     transition: background-color 50ms ease-in-out;
 }
+
+/*-------------------------------------------------------------------------------------------------NAVBAR SECTION-----*/
+
+.navbar {
+    /*border: 1px solid #FD6E0A;*/
+    /*max-width: 1440px;*/
+    /*margin: 50px auto;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    /*border: 1px solid #FD6E0A;*/
+    width: 50%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.menu {
+    /*border: 1px solid #FD6E0A;*/
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 50px;
+    display: flex;
+    gap: 2.5rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item {
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item:hover {
+    background-color: rgb(230, 83, 60);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav-links a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 25px;
+}
