@@ -418,3 +418,20 @@ section {
     right: 670px;
     bottom: 200px;
 }
+
+/*-------------------------------------------------------------------------------------------CALCULATOR-A SECTION-----*/
+
+.calculatorA {
+    /*max-width: 1440px;*/
+    /*margin: 50px auto;*/
+}
+
+.calculatorA-container {
+    /*border: 1px solid #FD6E0A;*/
+    width: 45vw;
+    margin: 100px auto 50px auto;
+}
+
+.calculatorA-title {
+    margin-bottom: 20px;
+}
