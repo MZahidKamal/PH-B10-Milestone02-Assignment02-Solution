@@ -529,3 +529,108 @@ select option {
 .calculatorB-button {
     padding: 16px 60px 16px 60px;
 }
+
+/*---------------------------------------------------------------------------------------------------TEAM SECTION-----*/
+
+.team-container {
+    /*border: 1px solid #FD6E0A;*/
+    margin-top: 750px;
+}
+
+.team-container h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.team-container > p {
+    margin: 0 250px 50px 250px;
+    text-align: center;
+}
+
+.team-cards {
+    /*border: 2px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+}
+
+.team-card {
+    /*border: 1px solid #FD6E0A;*/
+    border-radius: 18px;
+}
+
+.card-image-1 {
+    /*border: 1px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image-2 {
+    /*border: 1px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image-3 {
+    /*border: 1px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image-4 {
+    /*border: 1px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image-5 {
+    /*border: 1px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-image-6 {
+    /*border: 1px solid white;*/
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-text {
+    position: relative;
+    top: -90px;
+    left: 40px;
+}
+
+.team-card h3, p {
+    text-align: left;
+    margin-bottom: 10px;
+}
